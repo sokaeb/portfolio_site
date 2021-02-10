@@ -1,0 +1,37 @@
+@import "./_variables.scss";
+
+.aboutSection {
+  margin: 2% 0;
+  /* border: 1px solid brown; */
+}
+
+.aboutContainer {
+  /* border: 1px solid blue; */
+  font-family: $secondaryFont;
+  padding: 4%;
+}
+
+.about {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutImg {
+  width: 40%;
+}
+
+.aboutImgContainer {
+  /* border: 1px solid purple; */
+  width: 40%;
+}
+
+.aboutDesc {
+  /* border: 1px solid purple; */
+  width: 40%;
+}
+
+.aboutDesc p {
+  text-align: left;
+}

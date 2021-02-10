@@ -1,0 +1,50 @@
+@import "./variables";
+
+.navSection {
+  width: 100%;
+  font-family: $primaryFont;
+  /* border: 1px solid red; */
+  /* position: fixed; */
+
+  .navigationBar {
+    background-image: $secondaryBgImg;
+    /* border: 1px solid green; */
+    padding: 2% 5% 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
+.navMenu {
+  width: 40%;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigationBar > h1 {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+ul a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* create function for setting the color on an active nav item */
+/* ul a.active {
+  background-color: yellow;
+  color: black;
+} */

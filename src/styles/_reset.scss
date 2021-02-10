@@ -1,0 +1,12 @@
+@import "./_variables.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #09413d;
+  color: #fff;
+  text-align: center;
+  font-family: $primaryFont;
+}
