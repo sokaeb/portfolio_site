@@ -1,37 +1,59 @@
 @import "./_variables.scss";
 
 .aboutSection {
-  margin: 2% 0;
-  /* border: 1px solid brown; */
+  /* border: 1px solid green; */
+  background: none;
+  /* font-size: 1.4rem; */
 }
 
 .aboutContainer {
   /* border: 1px solid blue; */
   font-family: $secondaryFont;
   padding: 4%;
+  background: none;
 }
 
 .about {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
+  /* border: 1px solid pink; */
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
+  background: none;
 }
 
 .aboutImg {
-  width: 40%;
+  /* border: 1px solid red; */
+  width: auto;
+  background: none;
 }
 
 .aboutImgContainer {
   /* border: 1px solid purple; */
-  width: 40%;
+  width: 30%;
+  background: none;
 }
 
 .aboutDesc {
   /* border: 1px solid purple; */
-  width: 40%;
+  width: 60%;
+  padding: 3%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2rem;
+  /* background: none; */
+}
+
+.aboutDesc h3 {
+  width: 45%;
+  background: none;
+  text-align: left;
+  font-size: 2em;
+  /* border-bottom: 2px dashed white; */
 }
 
 .aboutDesc p {
   text-align: left;
+  background: none;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-size: 1.3rem;
 }

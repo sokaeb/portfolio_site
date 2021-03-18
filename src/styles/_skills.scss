@@ -1,15 +1,12 @@
 @import "./_variables.scss";
 
 /* .skillsSection {
-  border: 1px solid pink;
+  border: 1px solid yellow;
 } */
 
-.skillsContainer {
-  /* border: 1px solid white; */
-  /* display: grid; */
-  padding: 2%;
-  /* background-image: $primaryBgImg; */
-}
+/* .skillsContainer {
+  border: 1px solid white;
+} */
 
 .skills {
   /* border: 1px solid yellow; */
@@ -20,25 +17,27 @@
   div {
     /* border: 1px solid yellow; */
     padding: 2%;
-    margin: 2%;
+    margin: 4%;
   }
 
   h3 {
-    font-size: 1.5em;
-    margin-bottom: 5%;
+    font-size: 1.3em;
+    margin-bottom: 8%;
     text-transform: uppercase;
+    font-weight: 300;
   }
 
   li {
     list-style: none;
     letter-spacing: 1px;
-    margin-top: 1%;
+    line-height: 1.5;
+    margin-top: 2%;
   }
 }
 
 .skillsImgContainer {
   /* border: 1px solid red; */
-  width: 30%;
+  width: 35%;
 }
 
 .skillsImg {

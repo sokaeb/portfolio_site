@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
+
+
+
+body {
+  background-color: #12635d;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* NAVIGATION MENU */
+.navSection {
+  background-color: #12635d;
+}
+
+.name {
+  letter-spacing: 0.1rem;
+}
+
+.navItems a {
+  letter-spacing: 0.2rem;
+}
+.navItems a:hover{
+  background-color: #010e0d;
+  transition: 0.2s ease-out;
+}
+
+/* ABOUT SECTION */
+.aboutContainer {
+  margin-top: 8%;
+  padding: 2%;
+}
+
+.aboutText{
+  text-shadow: 1px 1px 5px black;
+  font-size: 1.6rem;
+  line-height: 40px;
+  letter-spacing: .5px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.aboutTitle{
+  font-size: 3rem;
+}
+
+.aboutImgDiv {
+  padding-top: 5%;
+}
+
+.aboutImg {
+  max-width: 100%;
+}
+
+/* SOCIAL MEDIA */
+.socialMedia {
+  padding-top: 2%;
+  text-align: center;
+}
+
+.icon-button {
+  padding: 3%;
+}
+
+.icon-button i {
+  color: white;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5rem;
+  height: 3rem;
+  line-height: 3rem;
+  width: 3rem;
+  /* margin: 0 5px; */
+  position: relative;
+  text-align: center;
+  margin-bottom: 2%;
+  transition: 0.2s ease-in;
+}
+
+.githubIcon i {
+  background-color: #999999;
+}
+
+.linkedinIcon i {
+  background-color: #2765C2;
+}
+
+.gmailIcon i {
+  background-color: #EA4434;
+}
+
+.mediumIcon i {
+  background-color: #000000;
+}
+
+.githubIcon i:hover,
+.linkedinIcon i:hover,
+.gmailIcon i:hover,
+.mediumIcon i:hover {
+  background-color:  #000;
+}
+
+/* SKILLS SECTION */
+.skillsContainer {
+  padding: 5%;
+  padding-top: 6%;
+  background-image: url(../images/xv.png);
+  background-attachment: fixed;
+}
+
+.skillsTitle {
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.2rem;
+  text-shadow: 1px 1px 5px black;
+  margin-bottom: -3%;
+}
+
+.skillIcons {
+  list-style: none;
+  font-size: 4rem;
+  margin-right: 2%;
+  padding: 1%;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-right: 1%;
+}
+
+.software-skill-inline > i {
+  color: #000;
+}
+
+.software-skill-inline > p {
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* PROJECTS SECTION */
+.projects {
+  padding: 5% 3%;
+}
+
+.projTitle {
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.2rem;
+  text-shadow: 1px 1px 5px black;
+  margin-bottom: -3%;
+}
+
+.projectsCard {
+  background-color: #0a413e;
+  text-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+  box-shadow: 0px 10px 30px -15px #000;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px; */
+}
+
+.projectsCard:hover {
+  box-shadow: #000 0px 20px 30px -3px;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px; */
+}
+
+.techStackDiv {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+}
+
+.techStackDiv li {
+  list-style: none;
+  margin-right: 5%;
+}
+
+.projButtons {
+  padding: 10% 0 5%;
+}
+
+.projText {
+  font-size: 1.2rem;
+}
+
+/* CONTACT SECTION */
+.resumeBtn {
+  background-color: #12635d;
+  font-size: 20px;
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba(211, 211, 211, 0.397); */
+  box-shadow: 0px 6px 15px 1px rgba(0, 0, 0, 0.527);
+}
+
+.resumeBtn:hover {
+  background-color: #000;
+  box-shadow: rgba(0, 0, 0, 0.767) 0px 20px 30px -3px;
+}
+
+/* FOOTER SECTION */
+.footerContainer {
+  background-image: url(../images/gray-floral.png);
+}
+
+.footerContainer p{
+  color: #ffffff;
+  font-weight: 700;
+  width: 30%;
+  margin: auto;
+  text-transform: uppercase;
+  text-shadow: 5px 1px 5px #000;
+  font-size: 1.6rem;
+  line-height: 40px;
+  letter-spacing: .5px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .aboutText {
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .aboutTitle {
+    font-size: 32px;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 568px) {
+  .aboutContainer {
+    margin-top: 30%;
+  }
+}
+

@@ -5,8 +5,15 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
-  background-color: #09413d;
+  background-color: #12635d;
+  /* background-color: rgb(0, 109, 119);
+  background-color: #81b29a; */
   color: #fff;
   text-align: center;
   font-family: $primaryFont;
+}
+
+.topSection {
+  /* border: 1px solid blue; */
+  background-image: $secondaryBgImg;
 }
