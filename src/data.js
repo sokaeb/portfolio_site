@@ -1,6 +1,7 @@
 import emoji from "react-easy-emoji";
 import nasaGif from "./images/nasa-apod.gif";
 import yelpCampGif from "./images/yelp-camp.gif";
+import ghibliGif from "./images/ghibliGif.gif";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs, faReact, faCss3Alt, faSass, faHtml5, faNode, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faTable } from '@fortawesome/free-solid-svg-icons';
@@ -109,13 +110,13 @@ projects: [
     stack: ["EJS", "Bootstrap", "NodeJS", "MongoDB", "Express", "CSS"],
   },
   {
-    name: "NASA Photo of the Day",
-    video: nasaGif,
-    liveSite: "https://nasadaily.netlify.app/",
-    code: "https://github.com/sokaeb/nasa-apod",
+    name: "Studio Ghibli Films",
+    video: ghibliGif,
+    liveSite: "https://studioghibli-films.netlify.app/",
+    code: "https://github.com/sokaeb/ghibli-films",
     about:
-      "Using an axios call to fetch the daily images from the NASA APOD API.",
-    stack: ["React", "Redux", "CSS"],
+      "Using an axios call to fetch all film titles from the Studio Ghibli API.",
+    stack: ["React", "Redux", "Styled-Components"],
   },
 ]
 }

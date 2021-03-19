@@ -5,7 +5,7 @@ import { featuredProjects } from "../data";
 function Projects() {
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="d-flex flex-column pt-5" id="projects">
+      <div className="d-lg-flex flex-column pt-5" id="projects">
         <p className="container mt-5 w-25 text-uppercase text-white fs-3 fw-light projTitle">
           {featuredProjects.title}
         </p>
