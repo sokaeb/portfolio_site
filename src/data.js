@@ -2,6 +2,7 @@ import emoji from "react-easy-emoji";
 import nasaGif from "./images/nasa-apod.gif";
 import yelpCampGif from "./images/yelp-camp.gif";
 import ghibliGif from "./images/ghibliGif.gif";
+import pizzaGif from "./images/pizzaGif.gif";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs, faReact, faCss3Alt, faSass, faHtml5, faNode, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faTable } from '@fortawesome/free-solid-svg-icons';
@@ -108,6 +109,15 @@ projects: [
     about:
       "Created an interactive user interface using EJS and a Mongo database to persist campsite data entered by registerd users. Inspired by Yelp.",
     stack: ["EJS", "Bootstrap", "NodeJS", "MongoDB", "Express", "CSS"],
+  },
+  {
+    name: "Pizza Builder",
+    video: pizzaGif,
+    liveSite: "https://pizza-maker-app.netlify.app/",
+    code: "https://github.com/sokaeb/pizza-builder",
+    about:
+      "This is a simple application with a basic form for building a pizza. It allows a user to make several selections and add multiple pizzas to the cart. The user can remove items from the cart and see the total cost.",
+    stack: ["React", "Context API", "CSS"],
   },
   {
     name: "Studio Ghibli Films",
