@@ -5,20 +5,18 @@ import sitting from '../images/Fresh Folk - Alone Time.png';
 
 function Skills() {
     return (
-        <div className='skillsContainer text-center main' id='skills'>
+        <div className='skillsContainer text-center' id='skills'>
             <div className='d-md-flex justify-content-center align-items-center skillsDiv'>
             <Fade left duration={1500}>
                 <div className='d-lg-flex skillsText'>
                         <div>
-                        <p className="mb-1 text-uppercase text-white fs-3 fw-light projTitle">
-                            {techStack.title}
-                        </p>
+                            <p className="mb-1 text-uppercase text-white fs-3 fw-light sectionTitle">
+                                {techStack.title}
+                            </p>
                             <ul className='skillIcons'>
-                                
                                 {techStack.skills.map((skill, i) => {
                                     if(!skill.backend) {
                                     return (
-                                       
                                             <li
                                                 key={i}
                                                 className="software-skill-inline skillItems"
@@ -41,18 +39,16 @@ function Skills() {
                                                 </li>
                                                
                                                 )
-                                            
                                         }
                                 })}
-                               
                             </ul>
                         </div>
                     </div>
                 </Fade>
 
                 <Fade right duration={1000}>
-                    <div className='skillsImgContainer skillsImgDiv'>
-                        <img src={sitting} alt="Sitting Avatar" className='skillsImg' />
+                    <div className='skillsImgDiv'>
+                        <img src={sitting} alt="Sitting Avatar" className='skillsImg avatar' />
                     </div>
                 </Fade>
             </div>                
