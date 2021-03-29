@@ -5,10 +5,10 @@ import resume from "../images/resume.pdf";
 
 function Contact() {
   // const [isMoble, setMoble] = useState(window.innerWidth < 768);
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 768);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 2360);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 768);
+    setDesktop(window.innerWidth > 2360);
   };
 
   useEffect(() => {
