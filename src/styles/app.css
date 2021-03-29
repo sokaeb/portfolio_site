@@ -235,13 +235,14 @@ hr {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1025px) {
+  .aboutContainer {
+    background-attachment: scroll;
+  }
+}
 @media screen and (max-width: 991px) {
   .navMenu {
     background-color:rgba(0, 0, 0, 0.9);
-  }
-
-  .aboutContainer {
-    background-attachment: scroll;
   }
 }
 
@@ -283,15 +284,6 @@ hr {
 }
 
 @media screen and (max-width: 568px) {
-  /* .aboutContainer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fuji2.jpg);
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  } */
   .skillsImg {
     width: 85%;
   }
@@ -299,10 +291,6 @@ hr {
 }
 
 @media screen and (max-width: 375px) {
-  /* .aboutContainer {
-    height: 90vh;
-  } */
-
   .projects {
     width: 100%;
   }
