@@ -5,14 +5,15 @@ import sitting from '../images/Fresh Folk - Alone Time.png';
 
 function Skills() {
     return (
-        <div className='skillsContainer text-center' id='skills'>
+        <section className='skillsContainer text-center' id='skills'>
             <div className='d-md-flex justify-content-center align-items-center skillsDiv'>
             <Fade left duration={1500}>
                 <div className='d-lg-flex skillsText'>
                         <div>
-                            <p className="mb-1 text-uppercase text-white fs-3 fw-light sectionTitle">
+                            <h2 className="mb-1 text-uppercase fs-3 fw-light sectionTitle">
                                 {techStack.title}
-                            </p>
+                            <hr></hr>
+                            </h2>
                             <ul className='skillIcons'>
                                 {techStack.skills.map((skill, i) => {
                                     if(!skill.backend) {
@@ -52,7 +53,7 @@ function Skills() {
                     </div>
                 </Fade>
             </div>                
-        </div>
+        </section>
     )
 }
 

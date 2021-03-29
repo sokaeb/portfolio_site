@@ -1,19 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { about } from "../data";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const bars = <FontAwesomeIcon icon={faBars} />
 
 function Nav() {
+    const [ nav, setNav ] = useState(false);
+
+    const changeBackground = () => {
+        if(window.scrollY >= 536) {
+            setNav(true);
+        } else {
+            setNav(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
     return (
-        <nav className='navbar fixed-top navbar-expand-lg pt-2 px-4 navSection'>
-            <button className="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon fs-1">{bars}</span>
+        <nav className={nav ? 'navbar navbar-expand-lg fixed-top navbar-dark navSection active' : 'navbar navbar-expand-lg fixed-top navbar-dark navSection'}>
+            <button className="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
 
-             <div className='navbar-brand text-uppercase h1 fs-3'>
-                    <a className='nav-link text-white name' href='#about'>{about.name}</a>
+             <div className='navbar-brand text-uppercase h1 fs-3 navBrand'>
+                    <a className='nav-link name' href='#about'>{about.name}</a>
             </div>
             <div className='collapse navbar-collapse justify-content-end navMenu' id='navbarNavAltMarkup'>
                 <div className='navbar-nav text-uppercase fs-5 fw-light navItems'>

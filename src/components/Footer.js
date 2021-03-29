@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal';
 
 function Footer() {
     return (
-        <div className='mt-2 p-5 text-center fs-4 text-white footerContainer' id='footer'>
+        <div className='mt-2 p-5 text-center fs-4 footerContainer' id='footer'>
             <Fade right duration={1000}>
                 <p>Thanks for visiting!</p>
             </Fade>
