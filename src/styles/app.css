@@ -52,7 +52,8 @@ hr {
 /* ABOUT SECTION */
 .aboutContainer {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fuji2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../images/fuji2.jpg);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fuji2.jpg); */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

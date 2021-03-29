@@ -15,9 +15,9 @@ const about = {
   name: "Kae Benton",
   subTitle: emoji("👋🏽 Welcome to my portfolio site!"),
   description: 
-    "I'm a full stack web developer aspiring to make meaningful impacts in the world through tech.",
+    "I am a full stack web developer aspiring to make meaningful impacts in the world through tech.",
   desc2:
-    "I've recently finished the Lambda School Web Development program where I have had several opportunites to collaborate on projects, learn new technologies, and create diverse applications.",
+    "I have recently finished the Lambda School Web Development program where I have had several opportunites to collaborate on projects, learn new technologies, and create diverse applications.",
   desc3:
     "I'm looking forward to building my career as a Web Developer!",
 };
