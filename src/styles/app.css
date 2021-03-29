@@ -51,7 +51,7 @@ hr {
 /* ABOUT SECTION */
 .aboutContainer {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fuji.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fuji2.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -278,7 +278,7 @@ hr {
 }
 
 @media screen and (max-width: 568px) {
-  .aboutContainer {
+  /* .aboutContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fuji2.jpg);
     background-size: cover;
     -webkit-background-size: cover;
@@ -286,7 +286,7 @@ hr {
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-  }
+  } */
   .skillsImg {
     width: 85%;
   }
@@ -294,9 +294,9 @@ hr {
 }
 
 @media screen and (max-width: 375px) {
-  .aboutContainer {
+  /* .aboutContainer {
     height: 90vh;
-  }
+  } */
 
   .projects {
     width: 100%;
@@ -313,10 +313,6 @@ hr {
 }
 
 @media screen and (max-width: 320px) {
-  .aboutContainer {
-    height: 100vh;
-  }
-
   .aboutDescDiv {
     margin-top: 25%;
   }
