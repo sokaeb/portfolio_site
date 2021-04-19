@@ -1,4 +1,5 @@
 import emoji from "react-easy-emoji";
+import homespaceGif from "./images/homespace.gif";
 import nasaGif from "./images/nasa-apod.gif";
 import yelpCampGif from "./images/yelp-camp.gif";
 import ghibliGif from "./images/ghibliGif.gif";
@@ -93,6 +94,15 @@ const featuredProjects = {
 title: "Featured Projects",
 projects: [
   {
+    name: "Homespace Shop",
+    video: homespaceGif,
+    liveSite: "https://homespace.netlify.app/",
+    code: "https://github.com/sokaeb/home-goods-shop",
+    about:
+      "This is a home goods eEcommerce site displaying products to shoppers. Currently unfinished. Future features will have routing to product pages as well as the ability for users to add and remove items from their cart and checkout.",
+    stack: ["Gatsby", "React", "styled-components"],
+  },
+  {
     name: "NASA Photo of the Day",
     video: nasaGif,
     liveSite: "https://nasadaily.netlify.app/",
@@ -126,7 +136,7 @@ projects: [
     code: "https://github.com/sokaeb/ghibli-films",
     about:
       "Using an axios call to fetch all film titles from the Studio Ghibli API.",
-    stack: ["React", "Redux", "Styled-Components"],
+    stack: ["React", "Redux", "styled-components"],
   },
 ]
 }
