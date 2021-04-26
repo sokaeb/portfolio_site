@@ -11,7 +11,7 @@ function Projects() {
           <hr></hr>
           </h2>
 
-          <div className='container'>
+          <div className='container projContainer'>
             <div className='row'>
               
                 {featuredProjects.projects.map((proj) => {
@@ -19,7 +19,7 @@ function Projects() {
                     <div className='col-md-6 col-lg-4 cardDiv'>
                         <div className='card medium'>
                           <div className='card-image'>
-                            <video src={proj.video} className='img fluid rounded projImg' type='video/mp4' autoPlay loop muted playsInline />
+                           <img src={proj.video} alt={proj.name} className='img fluid rounded projImg'/>
                           </div>
                           <div className='card-body'>
                             <h3 className='card-title text-center'>{proj.name}</h3>

@@ -1,9 +1,8 @@
 import emoji from "react-easy-emoji";
-import homespaceGif from "./images/homespace.mp4";
-import nasaGif from "./images/nasa-apod.mp4";
-import yelpCampGif from "./images/yelpCamp.mp4";
-import ghibliGif from "./images/ghibliGif.mp4";
-import pizzaGif from "./images/pizzaGif.mp4";
+import homespaceGif from "./images/homespace.gif";
+import nasaGif from "./images/nasa-apod.gif";
+import yelpCampGif from "./images/yelp-camp.gif";
+import pizzaGif from "./images/pizzaGif.gif";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs, faReact, faCss3Alt, faSass, faHtml5, faNode, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faTable } from '@fortawesome/free-solid-svg-icons';
@@ -129,15 +128,15 @@ projects: [
       "This is a simple application with a basic form for building a pizza. It allows a user to make several selections and add multiple pizzas to the cart. The user can remove items from the cart and see the total cost.",
     stack: ["React", "Context API", "CSS"],
   },
-  {
-    name: "Studio Ghibli Films",
-    video: ghibliGif,
-    liveSite: "https://studioghibli-films.netlify.app/",
-    code: "https://github.com/sokaeb/ghibli-films",
-    about:
-      "Using an axios call to fetch all film titles from the Studio Ghibli API.",
-    stack: ["React", "Redux", "styled-components"],
-  },
+  // {
+  //   name: "Studio Ghibli Films",
+  //   video: ghibliGif,
+  //   liveSite: "https://studioghibli-films.netlify.app/",
+  //   code: "https://github.com/sokaeb/ghibli-films",
+  //   about:
+  //     "Using an axios call to fetch all film titles from the Studio Ghibli API.",
+  //   stack: ["React", "Redux", "styled-components"],
+  // },
 ]
 }
 
