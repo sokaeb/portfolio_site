@@ -44,7 +44,7 @@ function Contact() {
                     </div>
                     </>
           ) : (
-            <a href="https://docs.google.com/document/d/12AB_ZTF-1NR98qcF7Ak_qb6mJsWtQPcSGn2BB479UcU/edit?usp=sharing" target="_blank" rel="noreferrer"><button type="button" class="btn btn-lg text-white resumeBtn" data-bs-target="#resume">
+            <a href="https://docs.google.com/document/d/1yK4UfMK_mfvT1kJh4YxrDBm7B3NQXlvELI-3Qiut_Js/edit?usp=sharing" target="_blank" rel="noreferrer"><button type="button" class="btn btn-lg text-white resumeBtn" data-bs-target="#resume">
             View Resume
           </button></a>
           )}
