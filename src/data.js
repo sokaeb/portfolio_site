@@ -1,9 +1,9 @@
 import emoji from "react-easy-emoji";
-import homespaceGif from "./images/homespace.gif";
-import nasaGif from "./images/nasa-apod.gif";
-import yelpCampGif from "./images/yelp-camp.gif";
-import ghibliGif from "./images/ghibliGif.gif";
-import pizzaGif from "./images/pizzaGif.gif";
+import homespaceGif from "./images/homespace.mp4";
+import nasaGif from "./images/nasa-apod.mp4";
+import yelpCampGif from "./images/yelpCamp.mp4";
+import ghibliGif from "./images/ghibliGif.mp4";
+import pizzaGif from "./images/pizzaGif.mp4";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs, faReact, faCss3Alt, faSass, faHtml5, faNode, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faTable } from '@fortawesome/free-solid-svg-icons';

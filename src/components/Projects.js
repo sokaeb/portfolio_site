@@ -19,7 +19,7 @@ function Projects() {
                     <div className='col-md-6 col-lg-4 cardDiv'>
                         <div className='card medium'>
                           <div className='card-image'>
-                            <img src={proj.video} alt={proj.name} className='img fluid rounded projImg' />
+                            <video src={proj.video} className='img fluid rounded projImg' type='video/mp4' autoPlay loop muted playsInline />
                           </div>
                           <div className='card-body'>
                             <h3 className='card-title text-center'>{proj.name}</h3>
