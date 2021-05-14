@@ -1,7 +1,7 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 import { techStack } from '../data';
-import sitting from '../images/Fresh Folk - Alone Time.png';
+import sitting from '../assets/Fresh Folk - Alone Time.png';
 
 function Skills() {
     return (

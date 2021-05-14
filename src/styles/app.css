@@ -52,7 +52,7 @@ hr {
 /* ABOUT SECTION */
 .aboutContainer {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../images/fuji2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../assets/fuji2.jpg);
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/fuji2.jpg); */
   background-size: cover;
   -webkit-background-size: cover;
@@ -67,10 +67,10 @@ hr {
   width: 55%;
   margin: auto;
   padding: 2%;
-  text-align: center;
+  text-align: justify;
 }
 
-.aboutText{
+.aboutText {
   text-shadow: 1px 1px 5px black;
   font-size: 1.2rem;
   line-height: 30px;
@@ -79,8 +79,17 @@ hr {
   /* font-weight: 300; */
 }
 
-.aboutTitle{
+.aboutTitle {
   font-size: 2rem;
+}
+
+.aboutSubtitle {
+  text-shadow: 1px 1px 5px black;
+  line-height: 30px;
+  letter-spacing: .5px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -4%;
+  text-align: center;
 }
 
 /* SOCIAL MEDIA */
@@ -137,7 +146,7 @@ hr {
   padding: 5%;
   padding-top: 6%;
   background-color: #f8f8f8;
-  background-image: url(../images/xv.png);
+  background-image: url(../assets/xv.png);
   background-attachment: fixed;
   border-bottom: 1px solid #f1f1f1;
 }
@@ -222,7 +231,7 @@ hr {
 /* FOOTER SECTION */
 .footerContainer {
   background-color: #f8f7f7;
-  background-image: url(../images/gray-floral.png);
+  background-image: url(../assets/gray-floral.png);
   border-top: 1px solid #f1f1f1;
 }
 
