@@ -1,7 +1,7 @@
 import emoji from "react-easy-emoji";
-import homespaceGif from "./assets/homespace.mp4";
-import nasaGif from "./assets/nasa-apod.mp4";
-import yelpCampGif from "./assets/yelpCamp.mp4";
+import homespaceImg from "./assets/homespace.png";
+import nasaImg from "./assets/nasa.png";
+import yelpCampImg from "./assets/yelpcamp.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs, faReact, faCss3Alt, faSass, faHtml5, faNode, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faTable } from '@fortawesome/free-solid-svg-icons';
@@ -11,7 +11,7 @@ import { faDatabase, faTable } from '@fortawesome/free-solid-svg-icons';
 // About Section
 const about = {
   title: "Hello, I'm Kae.",
-  subtitle: "(pronounced Kai, rhymes with Hi!)",
+  subtitle: "(pronounced 'kai', rhymes with Hi!)",
   name: "Kae Benton",
   subTitle: emoji("👋🏽 Welcome to my portfolio site!"),
   description: 
@@ -94,7 +94,7 @@ title: "Featured Projects",
 projects: [
   {
     name: "Homespace Shop",
-    video: homespaceGif,
+    video: homespaceImg,
     liveSite: "https://homespace.netlify.app/",
     code: "https://github.com/sokaeb/home-goods-shop",
     about:
@@ -103,7 +103,7 @@ projects: [
   },
   {
     name: "NASA Photo of the Day",
-    video: nasaGif,
+    video: nasaImg,
     liveSite: "https://nasadaily.netlify.app/",
     code: "https://github.com/sokaeb/nasa-apod",
     about:
@@ -112,7 +112,7 @@ projects: [
   },
   {
     name: "YelpCamp",
-    video: yelpCampGif,
+    video: yelpCampImg,
     liveSite: "https://hidden-peak-81499.herokuapp.com/campgrounds",
     code: "https://github.com/sokaeb/yelp-camp",
     about:

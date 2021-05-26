@@ -19,10 +19,11 @@ function Projects() {
                     <div className='col-md-6 col-lg-4 cardDiv'>
                         <div className='card medium'>
                           <div className='card-image'>
-                           <video className='img fluid rounded projImg' autoplay loop muted playsInline>
+                            <img className='img fluid rounded projImg' src={proj.video} alt={proj.name} />
+                           {/* <video className='img fluid rounded projImg' autoplay loop muted playsInline>
                               <source src={proj.video} type='video/mp4' />
                               Your browser does not support the video tag.
-                             </video>
+                             </video> */}
                           </div>
                           <div className='card-body'>
                             <h3 className='card-title text-center'>{proj.name}</h3>
